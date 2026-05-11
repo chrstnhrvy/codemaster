@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+
+img{
+    border-radius: 6px;
+}
+
+body{
+    background: linear-gradient(to right, #151B54, #123456);
+}
+
+.CM {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #35374B;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.hd1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 10%;
+    background-color: white;
+}
+
+.hd2 {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #222831;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover {
+    color: #9AC8CD;
+}
+
+.btn1, .btn2 {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+}
+
+.btn3, .btn4, .btn5 {
+    padding: 5px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn3 {
+    margin-right: 10px;
+}
+
+.btn5 {
+    margin-left: 10px;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: #474F7A;
+    color: #9AC8CD;
+}
+
+.srch {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 60px;
+    color: white;
+    background-color: #35374B;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.image img {
+    max-width: 30%;
+    max-height: 30%;
+    object-fit: cover;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav_links {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .image img {
+        max-width: 40%;
+        max-height: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hd1, .hd2 {
+        padding: 10px 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav_links {
+        padding: 5px 0;
+    }
+
+    .nav_links li {
+        padding: 5px 10px;
+        display: block;
+    }
+
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
+        padding: 10px 15px;
+        margin: 5px 0;
+    }
+
+    .image img {
+        max-width: 40%;
+        max-height: 40%;
+    }
+}

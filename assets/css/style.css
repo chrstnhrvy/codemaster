@@ -1,0 +1,141 @@
+#img{
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img{
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+img:hover{
+    opacity:0.4;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight:400;
+}
+
+p{
+    font-size: 14pt;
+    padding: 0%;
+    color: white;
+    margin-bottom: 0%;
+}
+
+#by{
+    color: gray;
+    font-size: 10pt;
+}
+
+
+
+body{
+    background: linear-gradient(to right, #151B54, #123456);
+}
+
+iframe{
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+
+textarea {
+    width: 853px;
+    height: 80px;
+    background-color: transparent;
+    color: aliceblue;
+    resize: none;
+    border-color: white;
+    border-radius: 6px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.comment-box{
+    width: 815px;
+    padding:20px;
+    padding-left: 0px;
+    margin-bottom: 4px;
+    background-color: transparent;
+    border-radius: 6px;
+    position: relative;
+}
+
+.comment-box p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    font-weight: 100;
+}
+
+.edit-form {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.edit-form button{
+    width: 40px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.edit-form button:hover {
+    opacity: 1 ;
+}
+
+iframe {
+    width: 853px;
+    height: 480px;
+    border: 1px #999 solid;
+}
+
+.delete-form {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+
+}
+
+.delete-form button{
+    width: 40px;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    opacity: 0.7;
+}
+
+.delete-form button:hover {
+    opacity: 1 ;
+}
+
+.sep{
+    padding-left: 125px;
+    padding-right: 100px;
+}
+
+.bot-sec{
+    display: flex;
+    align-items: flex-start;
+}

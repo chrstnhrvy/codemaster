@@ -1,0 +1,13 @@
+﻿# Environment / credentials
+includes/dbh.inc.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Dependency caches
+node_modules/
